@@ -368,7 +368,8 @@ body {
   text-overflow: ellipsis; }
 .post .post-content {
   width: 100%;
-  font-family: Linux Libertine;
+  /*font-family: Linux Libertine;*/
+  font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: #333333; }
   .post .post-content h1, .post .post-content h2, .post .post-content h3 {
     font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
@@ -641,3 +642,10 @@ body {
       border-radius: 999em;
       line-height: 44px;
       padding: 0 18px; }
+
+
+#disqus_thread a, .dsq-brlink { color: #000; }
+.content article .post-title a.comment-cnt {
+  font-size: 16px;
+  color: #666;
+}
